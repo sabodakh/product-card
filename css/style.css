@@ -40,6 +40,7 @@ body {
   color: white;
   line-height: 1.5;
   font-family: "Raleway", sans-serif;
+  margin-bottom: 0.5em;
 }
 .card__price span {
   font-size: 30px;
@@ -50,6 +51,7 @@ body {
   color: rgba(0, 0, 0, 0.6);
   line-height: 1.5;
   font-family: "Raleway", sans-serif;
+  margin-bottom: 1em;
 }
 
 .btn {
@@ -66,7 +68,7 @@ body {
   border-radius: 15px;
 }
 .btn--accent {
-  background: #ff715b;
+  background: black;
   transition: ease-out 0.3s;
 }
 .btn--accent:hover {

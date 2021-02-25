@@ -80,6 +80,7 @@ body {
 
    &__price {
       @include font(60px, $fw-light, $clr-white);
+      margin-bottom: .5em;
 
       span {
          font-size: 30px;
@@ -88,6 +89,7 @@ body {
 
    &__desc {
       @include font(24px, $fw-normal, rgba(black, .6));
+      margin-bottom: 1em;
    }
 }
 
@@ -97,7 +99,7 @@ body {
    border-radius: 15px;
 
    &--accent {
-      background: $clr-orange;
+      background: black;
       transition: ease-out .3s;
 
       &:hover{
